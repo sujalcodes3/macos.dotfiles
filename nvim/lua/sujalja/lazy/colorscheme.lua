@@ -7,9 +7,9 @@ return {
         "folke/tokyonight.nvim",
         config = function()
             require("tokyonight").setup({
-                --transparent = true,
+                transparent = true,
             })
-            --vim.cmd.colorscheme("tokyonight")
+            vim.cmd.colorscheme("tokyonight")
         end
     },
     {
@@ -34,7 +34,7 @@ return {
                     return {}
                 end,
             })
-            vim.cmd("colorscheme kanagawa-paper")
+            --vim.cmd("colorscheme kanagawa-paper")
         end
     }
 }
